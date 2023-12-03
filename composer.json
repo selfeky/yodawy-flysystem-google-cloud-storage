@@ -1,16 +1,20 @@
 {
-	"name": "superbalist/flysystem-google-storage",
+	"name": "yodawy/flysystem-google-storage",
 	"description": "Flysystem adapter for Google Cloud Storage",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "Superbalist.com a division of Takealot Online (Pty) Ltd",
 			"email": "info@superbalist.com"
+		},
+		{
+			"name": "Sherief El-Feky",
+			"email": "sherief.elfeky@gmail.com"
 		}
 	],
 	"require": {
 		"php": ">=5.5.0",
-		"league/flysystem": "~1.0",
+		"league/flysystem": "~3.0",
 		"google/cloud-storage": "~1.0"
 	},
 	"require-dev": {
